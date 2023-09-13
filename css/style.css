@@ -10,13 +10,20 @@ img{
 }
 header{
     background-color: orange;
-    height: 40px;
+    padding: 10px;
     
+}
+
+.container-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 footer{
     background-color: black;
-    
+    color: white;
+
 }
 .container{
     max-width: 1200px;
@@ -24,12 +31,12 @@ footer{
     padding: 50px;
 }
 
-.debug{
+/*.debug{
     border: 1px solid black;
-}
+}*/
 .d-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
