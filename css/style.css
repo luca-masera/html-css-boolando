@@ -4,15 +4,24 @@
     padding: 0;
     box-sizing:border-box ;
 }
+
+img{
+    max-width: 100%;
+}
 header{
     background-color: orange;
+    height: 40px;
     
 }
 
-.container-header{
+footer{
+    background-color: black;
+    
+}
+.container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 50px;
 }
 
 .debug{
@@ -20,12 +29,59 @@ header{
 }
 .d-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 ul{
     list-style: none;
 }
-img{
+.img-logo{
     width: 10%;
+}
+
+.card{
+    width: calc(100% / 3);
+    min-width: 200px;
+}
+.discount{
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+    background-color: red;
+
+}
+.sostenibilità{
+    position: absolute;
+    left: 59px;
+    bottom: 100px;
+    background-color: green;
+}
+
+.sostenibilità1{
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+    background-color: green;
+}
+
+.position{
+    position: relative;
+    padding: 20px;
+}
+.red{
+    color: red;;
+}
+.heart{
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    color: black;
+    background-color: white;
+    padding: 8px;
 }
